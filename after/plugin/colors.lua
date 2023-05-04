@@ -1,7 +1,6 @@
 function DoColors(color)
-  color = color or "one"
+  color = color or "nightfox"
   vim.cmd.colorscheme(color)
-  vim.g.one_allow_italics = true
 end
 
 DoColors()
