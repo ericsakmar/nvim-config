@@ -86,6 +86,8 @@ return require('packer').startup(function(use)
     requires = { "nvim-lua/plenary.nvim" },
   })
 
+  use { 'saadparwaiz1/cmp_luasnip' }
+
   -- TODO consider
   -- Plug 'folke/trouble.nvim'
 end)
