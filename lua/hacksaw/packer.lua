@@ -79,6 +79,11 @@ return require('packer').startup(function(use)
 
   use 'karb94/neoscroll.nvim'
 
+  use({
+    "jose-elias-alvarez/null-ls.nvim",
+    requires = { "nvim-lua/plenary.nvim" },
+  })
+
 
 
 
