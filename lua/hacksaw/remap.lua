@@ -23,4 +23,4 @@ vim.keymap.set("n", "<leader>h", ":nohlsearch<cr>");
 vim.keymap.set("n", "<leader>light", "<esc>:set background=light<cr>");
 vim.keymap.set("n", "<leader>dark", "<esc>:set background=dark<cr>");
 
-
+-- TODO git as you need it?

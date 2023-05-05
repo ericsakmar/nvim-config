@@ -31,10 +31,4 @@ vim.opt.encoding = "utf8"
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
--- TODO figure out what these are for
--- vim.opt.hidden = true
--- vim.opt.listchars = tab:->,trail:-
-vim.opt.list  =  true
-
--- oet wildignore+=*/node_modules/**,*/dist/*,*/release/*
-
+vim.opt.list = true
