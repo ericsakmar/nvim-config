@@ -15,6 +15,7 @@ return require("packer").startup(function(use)
 	})
 
 	use("folke/tokyonight.nvim")
+	use("olimorris/onedarkpro.nvim")
 
 	use({
 		"nvim-treesitter/nvim-treesitter",

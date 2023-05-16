@@ -1,5 +1,1 @@
-vim.cmd([[colorscheme tokyonight]])
-
-require("tokyonight").setup({
-	style = "night",
-})
+vim.cmd("colorscheme onedark")
