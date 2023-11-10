@@ -80,10 +80,12 @@ return require("packer").startup(function(use)
 
 	use("karb94/neoscroll.nvim")
 
-	use({
-		"jose-elias-alvarez/null-ls.nvim",
-		requires = { "nvim-lua/plenary.nvim" },
-	})
+	-- use({
+	-- 	"jose-elias-alvarez/null-ls.nvim",
+	-- 	requires = { "nvim-lua/plenary.nvim" },
+	-- })
+
+	use({ "stevearc/conform.nvim" })
 
 	use({ "saadparwaiz1/cmp_luasnip" })
 

@@ -4,16 +4,17 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
 	"tsserver",
+	"eslint",
 })
 
 -- Fix Undefined global 'vim'
 lsp.nvim_workspace()
 
-local pid = vim.fn.getpid()
-local omnisharp_bin = "/Users/ericsakmar/Applications/omnisharp-osx/run"
-require("lspconfig").omnisharp.setup({
-	cmd = { omnisharp_bin, "--languageserver", "--hostPID", tostring(pid) },
-})
+-- local pid = vim.fn.getpid()
+-- local omnisharp_bin = "/Users/ericsakmar/Applications/omnisharp-osx/run"
+-- require("lspconfig").omnisharp.setup({
+-- 	cmd = { omnisharp_bin, "--languageserver", "--hostPID", tostring(pid) },
+-- })
 
 lsp.on_attach(function(client, bufnr)
 	local opts = { buffer = bufnr, remap = false }
