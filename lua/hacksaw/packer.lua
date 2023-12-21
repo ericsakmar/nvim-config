@@ -89,6 +89,8 @@ return require("packer").startup(function(use)
 
 	use({ "saadparwaiz1/cmp_luasnip" })
 
+	use("wcascades/vim-fugitive-toggle")
+
 	-- TODO consider
 	-- Plug 'folke/trouble.nvim'
 end)

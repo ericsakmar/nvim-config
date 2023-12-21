@@ -34,4 +34,5 @@ vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
--- TODO git as you need it?
+-- git
+vim.keymap.set("n", "<leader>g", [[<cmd>lua require('vim-fugitive-toggle').toggle()<cr>]], { noremap = true })
