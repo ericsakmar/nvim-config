@@ -6,6 +6,7 @@ require("conform").setup({
 		typescriptreact = { { "prettierd", "prettier" } },
 		html = { { "prettierd", "prettier" } },
 		css = { { "prettierd", "prettier" } },
+		markdown = { { "prettierd", "prettier" } },
 	},
 })
 
