@@ -8,6 +8,7 @@ return {
 
 		config = function()
 			local lsp = require("lsp-zero")
+			lsp.extend_lspconfig()
 
 			require("mason").setup({})
 
@@ -75,7 +76,6 @@ return {
 			end)
 
 			lsp.setup()
-			print("DONEEE!!!")
 		end,
 	},
 	{ "neovim/nvim-lspconfig" },
