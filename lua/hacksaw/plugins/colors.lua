@@ -1,7 +1,11 @@
 return {
-	"olimorris/onedarkpro.nvim",
+	{ "olimorris/onedarkpro.nvim" },
+	{
+		"ellisonleao/gruvbox.nvim",
 
-	config = function()
-		vim.cmd("colorscheme onedark")
-	end,
+		config = function()
+			vim.o.background = "dark"
+			vim.cmd("colorscheme gruvbox")
+		end,
+	},
 }

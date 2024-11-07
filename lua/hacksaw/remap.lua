@@ -36,3 +36,6 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 
 -- git
 vim.keymap.set("n", "<leader>g", [[<cmd>lua require('vim-fugitive-toggle').toggle()<cr>]], { noremap = true })
+
+-- eslint
+vim.keymap.set("n", "<leader>fa", ":EslintFixAll<cr>", { noremap = true })
