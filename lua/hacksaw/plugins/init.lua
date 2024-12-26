@@ -5,7 +5,6 @@ return {
 	"tpope/vim-surround",
 	"christoomey/vim-sort-motion", -- TODO replace this with something new?
 	"wcascades/vim-fugitive-toggle",
-	"rcarriga/nvim-notify",
 	"github/copilot.vim",
 
 	{
